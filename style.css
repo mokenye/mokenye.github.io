@@ -1,7 +1,7 @@
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
         :root {
-            --bg:     #f8f5f1;
+            --bg:     #f2ede7;
             --white:  #ffffff;
             --ink:    #111010;
             --ink2:   #2c2825;
@@ -353,10 +353,10 @@
         .footer-copy { font-size: 0.68rem; color: var(--faint); }
 
         code {
-        background-color: #f4f4f4; /* Light gray background */
-        padding: 2px 4px;          /* A little breathing room */
-        border-radius: 4px;        /* Rounded corners */
-        font-family: monospace;    /* The classic dev font */
+        background-color: #f4f4f4; 
+        padding: 2px 4px;          
+        border-radius: 4px;        
+        font-family: monospace;    
         }
 
         /* Responsive */
@@ -375,3 +375,21 @@
             .stack-bar { padding: 0.85rem 0; }
             .work-section { padding-top: 2.2rem; scroll-margin-top: 3.5rem}
         }
+
+         /* @media (prefers-color-scheme: dark) {
+            :root {
+                --bg:     #131110;
+                --white:  #1c1a18;
+                --ink:    #ede8e2;
+                --ink2:   #c9c2b8;
+                --muted:  #6e6560;
+                --faint:  #6e6560;
+                --border: #2a2520;
+                --green:  #4aaf66;
+                --green-l:#152a1c;
+            }
+            code {
+                background-color: #2a2520;
+            }
+        }
+         */
