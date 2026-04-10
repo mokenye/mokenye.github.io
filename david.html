@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mokenye | Full-Stack Engineer</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%233a8f52'/><text x='16' y='25' font-size='22' font-family='Georgia,serif' fill='white' text-anchor='middle'>m</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="foliage">
+        <div class="leaf"></div><div class="leaf"></div><div class="leaf"></div>
+        <div class="leaf"></div><div class="leaf"></div><div class="leaf"></div>
+        <div class="leaf"></div><div class="leaf"></div>
+    </div>
+
+    <div class="nav-wrap">
+        <nav>
+            <div class="logo">mokenye<span class="logo-dot">.</span></div>
+            <div class="nav-right">
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="mailto:dmonywoki@gmail.com" class="nav-cta">Get in touch</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="page">
+
+        <section class="hero">
+            <div class="hero-left">
+                <div class="hero-label">Full-Stack Engineer</div>
+                <h1>Good software is<br><em>mostly just</em><br>good judgment.</h1>
+            </div>
+            <div class="hero-right">
+                <p class="hero-desc">
+                    I develop full-stack applications with an emphasis on foresight. 
+                    I take pride in solving the hidden challenges upfront to ensure a seamless, 
+                    low-maintenance handoff.
+                </p>
+                <div class="hero-links">
+                    <a href="#work" class="hero-link-primary">See my work</a>
+                    <a href="https://github.com/mokenye" target="_blank" rel="noopener noreferrer" class="hero-link-secondary">GitHub</a>
+                    <a href="https://linkedin.com/in/mokenye" target="_blank" rel="noopener noreferrer" class="hero-link-secondary">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="stack-bar">
+            <span class="stack-label">Stack</span>
+            <div class="stack-items">
+                <span class="stack-item">TypeScript</span>
+                <span class="stack-item">React</span>
+                <span class="stack-item">Node.js</span>
+                <span class="stack-item">Python</span>
+                <span class="stack-item">PostgreSQL</span>
+                <span class="stack-item">MongoDB</span>
+                <span class="stack-item">Redis</span>
+                <span class="stack-item">Socket.io</span>
+                <span class="stack-item">Docker</span>
+                <span class="stack-item">Prometheus</span>
+                <span class="stack-item">Next.js</span>
+            </div>
+        </div>
+
+        <section id="work" class="work-section">
+            <div class="section-eyebrow">Selected work</div>
+
+            <a href="https://plama.vercel.app" target="_blank" rel="noopener noreferrer" class="project">
+                <div class="proj-name">Plama</div>
+                <div class="proj-meta">
+                    <span class="proj-type">Collaboration tool</span>
+                    <p class="proj-desc">
+                        This real-time Kanban board uses multi-user WebSocket sync to ensure card changes 
+                        reach every connected client in <strong>under 1ms (p95)</strong>. I prioritized 
+                        deep system transparency with Prometheus, Grafana, and Loki, while automatic 
+                        conflict detection and rollback keep the interface responsive and reliable.
+                    </p>
+                </div>
+                <span class="proj-arrow">↗</span>
+            </a>
+
+            <a href="https://sydney-tracker-react.vercel.app" target="_blank" rel="noopener noreferrer" class="project">
+                <div class="proj-name">Sydney Studio</div>
+                <div class="proj-meta">
+                    <span class="proj-type">Client work · Analytics</span>
+                    <p class="proj-desc">
+                        A producer was losing significant time manually tracking view counts across a 
+                        160+ YouTube playlist. I built a Python worker to sync everything via GitHub 
+                        Actions, turning a manual chore into a live, automated dashboard that
+                        <strong>reclaimed 3 hours every week.</strong>
+                    </p>
+                </div>
+                <span class="proj-arrow">↗</span>
+            </a>
+
+            <a href="https://n--nelel--7vqh2vrwnq6y.code.run/" target="_blank" rel="noopener noreferrer" class="project">
+                <div class="proj-name">Nelel</div>
+                <div class="proj-meta">
+                    <span class="proj-type">Fintech</span>
+                    <p class="proj-desc">
+                        Most apps tell you what you spent; Nelel shows you where you will actually 
+                        land. It is a planning engine that maps spending against long-term goals, 
+                        factoring in real-time 2025 US tax calculations. I used a full MVC architecture 
+                        to ensure the data is as reliable as the logic.
+                    </p>
+                </div>
+                <span class="proj-arrow">↗</span>
+            </a>
+
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-heading">About<br><em>me</em></div>
+            <div class="about-body">
+                <p>
+                    I'm a full-stack engineer based in New Jersey. Before software I managed
+                    investment funds, a career built on the integrity of the details. That mindset carries over. 
+                    I care about getting things <i>right</i>, not just getting them done.
+                </p>
+                <p>
+                When I'm not wrestling with <code>CORS</code> or waiting for tests to turn green, 
+                you'll find me watching F1, studying markets, or playing pickleball with my wife.
+                </p>
+                <p>
+                    I am open to full-time roles, freelance projects, and open-source collaborations. 
+                    If you're building something interesting and need a diligent engineer who delivers results, <a href="mailto:dmonywoki@gmail.com" class="about-contact">I'd like to hear about it.</a>
+                </p>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-links">
+                <a href="https://github.com/mokenye" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com/in/mokenye" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="mailto:dmonywoki@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+            </div>
+            <span class="footer-copy">© 2026 Mokenye ♥ NJ</span>
+        </footer>
+    </div>
+</body>
+</html>
